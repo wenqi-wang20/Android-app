@@ -14,6 +14,7 @@ import com.example.ctwnews.frag.NewsFragment;
 import com.example.ctwnews.frag.SearchFragment;
 import com.example.ctwnews.frag.UserFragment;
 
+
 //import androidx.appcompat.app.ActionBarDrawerToggle;
 //import androidx.appcompat.app.AppCompatActivity;
 //import androidx.appcompat.widget.Toolbar;
@@ -59,7 +60,12 @@ public class MainActivity extends AppCompatActivity {
          * 以下代表初始化底部菜单栏
          */
         init_page();
+
     }
+
+    
+
+
 
     /**
      * 初始菜单栏页面
