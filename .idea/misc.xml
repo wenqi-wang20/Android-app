@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1453125" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_about.xml" value="0.109375" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_background.xml" value="0.109375" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_cancel.xml" value="0.109375" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_info.xml" value="0.109375" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_news.xml" value="0.109375" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_research.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_settings.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_share.xml" value="0.109375" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/draw_user.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1453125" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/drawable/item_bg.xml" value="0.109375" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/activity_channel.xml" value="0.11" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/activity_main.xml" value="0.11" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/activity_news_channel.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/adapter_mygridview_item.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/container.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/content.xml" value="0.10416666666666667" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/item_view.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/newsfragment.xml" value="0.11" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/searchfragment.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/side_nav.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/toolbar.xml" value="0.10416666666666667" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/userfragment.xml" value="0.25" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/menu/bottom_navigation.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/menu/side_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/NEWS"
+            android:icon="@drawable/draw_info"
+            android:title="世界"/>
+        <item
+            android:id="@+id/SETTINGS"
+            android:icon="@drawable/draw_settings"
+            android:title="设置"/>
+        <item
+            android:id="@+id/SHARE"
+            android:icon="@drawable/draw_share"
+            android:title="分享"/>
+        <item
+            android:id="@+id/ADOUT"
+            android:icon="@drawable/draw_about"
+            android:title="关于"/>
+    </group>
+
+</menu>
