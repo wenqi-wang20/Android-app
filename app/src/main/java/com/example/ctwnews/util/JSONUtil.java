@@ -29,6 +29,7 @@ public class JSONUtil {
 
     //解析数据并且返回新闻列表
     public static List<Msg> parseJSON(Response response) throws IOException{
+
         String responseData = response.body().string();
         List<Msg> newsArray = new ArrayList<>();
 
@@ -62,16 +63,16 @@ public class JSONUtil {
 
                 //新闻图片链接(需处理)
                 String imageurls = newsob.getString("image");
-                List<String> imageurlArray = new ArrayList<>();
+                List<String> imageurlArray = new ArrayList<String>();
                 if(imageurls == "[]"){
                     //说明新闻返回空链接，设置一张自己的图片
-                    String imageDefaulturl = "https://images.cnblogs.com/cnblogs_com/blogs/669967/galleries/1942265/o_210902084958newsbackground.jpg";
+                    String imageDefaulturl = "https://images.cnblogs.com/cnblogs_com/blogs/669967/galleries/1942265/o_210902204244news_detail.jpg";
                     imageurlArray.add(imageDefaulturl);
                     msg.setImageUrl(imageurlArray);
                 }else {
                     //说明新闻有自己的图片
                     String imageurllist = imageurls.replace("[", "").replace("]", "");
-                    String[] str = imageurllist.split(",");
+                    String[] str = imageurllist.split(", ");
                     for (String url : str) {
                         imageurlArray.add(url);
                     }
@@ -80,14 +81,14 @@ public class JSONUtil {
 
                 //新闻视频链接（需处理）
                 String videourls = newsob.getString("video");
-                List<String> videourlArray = new ArrayList<>();
+                List<String> videourlArray = new ArrayList<String>();
                 if(videourls == "[]"){
                     //说明新闻返回空链接，设置一张自己的图片
                     msg.setVideoUrl(videourlArray);
                 }else {
                     //说明新闻有自己的图片
                     String videourllist = imageurls.replace("[", "").replace("]", "");
-                    String[] str = videourllist.split(",");
+                    String[] str = videourllist.split(", ");
                     for (String url : str) {
                         videourlArray.add(url);
                     }

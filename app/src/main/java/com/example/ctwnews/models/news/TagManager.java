@@ -18,13 +18,13 @@ public class TagManager {
         List<ItemBean> itemBeans = new ArrayList<>();
         if (SPUtil.init("data").getString("channel").isEmpty()) {
             List<ItemBean> initData = new ArrayList<>();
-            initData.add(new ItemBean("热点", true));
             initData.add(new ItemBean("军事", true));
             initData.add(new ItemBean("娱乐", true));
             initData.add(new ItemBean("科技", true));
             initData.add(new ItemBean("汽车", true));
             initData.add(new ItemBean("体育", true));
             initData.add(new ItemBean("教育", true));
+            initData.add(new ItemBean("热点", true));
             initData.add(new ItemBean("政治", true));
             initData.add(new ItemBean("健康", true));
             initData.add(new ItemBean("财经", true));

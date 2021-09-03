@@ -22,14 +22,18 @@
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/container.xml" value="0.125" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/content.xml" value="0.10416666666666667" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/item_view.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/news_detail.xml" value="0.1" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/news_item.xml" value="0.125" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/news_photo.xml" value="0.1" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/newsfragment.xml" value="0.11" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/searchfragment.xml" value="0.1" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/side_nav.xml" value="0.1" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/toolbar.xml" value="0.10416666666666667" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/userfragment.xml" value="0.25" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/layout/view_footer.xml" value="0.1" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/menu/bottom_navigation.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/menu/side_menu.xml" value="0.1" />
+        <entry key="..\:/Users/19749/Desktop/DevProject/Android/CTWnews/app/src/main/res/xml/network_security_config.xml" value="0.1046875" />
       </map>
     </option>
   </component>

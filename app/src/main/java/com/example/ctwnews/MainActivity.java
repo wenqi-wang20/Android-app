@@ -1,5 +1,6 @@
 package com.example.ctwnews;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -13,6 +14,10 @@ import android.support.v7.widget.Toolbar;
 import com.example.ctwnews.frag.NewsFragment;
 import com.example.ctwnews.frag.SearchFragment;
 import com.example.ctwnews.frag.UserFragment;
+import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
 
 //import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -60,10 +65,20 @@ public class MainActivity extends AppCompatActivity {
          * 以下代表初始化底部菜单栏
          */
         init_page();
-
+        //加载图片缓存类
+        //initImageLoader(getApplicationContext());
+        //ImageContent.IMAGLIST;
     }
 
-    
+    public static void initImageLoader(Context context){
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(context)
+                .threadPriority(Thread.NORM_PRIORITY - 2)//加载图片的线程数
+                .denyCacheImageMultipleSizesInMemory()//大尺寸先在内存中缓存解码的小尺寸
+                .discCacheFileNameGenerator(new Md5FileNameGenerator())//设置磁盘缓存文件名称
+                .tasksProcessingOrder(QueueProcessingType.LIFO)//图片队列
+                .writeDebugLogs().build();
+        ImageLoader.getInstance().init(config);
+    }
 
 
 

@@ -1,9 +1,10 @@
 package com.example.ctwnews.models.news;
 
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Msg {
+public class Msg implements Serializable {
     private int id;
     private int imageResourceID;
     private List<String> imageUrl;

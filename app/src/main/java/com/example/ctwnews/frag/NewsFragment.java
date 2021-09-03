@@ -17,7 +17,6 @@ import android.widget.LinearLayout;
 import com.example.ctwnews.NewsChannelActivity;
 import com.example.ctwnews.R;
 import com.example.ctwnews.adapter.news.ContentAdapter;
-import com.example.ctwnews.database.dao.NewsChannelDao;
 import com.example.ctwnews.models.news.TagManager;
 
 import java.util.HashMap;
@@ -33,20 +32,12 @@ public class NewsFragment extends Fragment {
 //    private static NewsFragment instance = null;
     private ViewPager viewPager;
     private LinearLayout linearLayout;
-    private NewsChannelDao dao = new NewsChannelDao();
     private List<Fragment> fragmentList;
     private List<String> titleList;
     private Observable<Boolean> observable;
     private Map<String, Fragment> map = new HashMap<>();
     private View view;
 
-
-//    public static NewsFragment getInstance() {
-//        if (instance == null) {
-//            instance = new NewsFragment();
-//        }
-//        return instance;
-//    }
 
     @Nullable
     @Override
